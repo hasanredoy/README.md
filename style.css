@@ -1,0 +1,241 @@
+:root{
+  --orange:#FD6E0A;
+}
+
+/* header nav work */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;;
+  
+}
+ header{
+  background-color: lightgoldenrodyellow;
+  background-image: url(portfolio-resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position-x: right;
+  background-position-y: bottom;
+ }
+#nav-flex{
+  display: flex;
+  width: 100%;
+  
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  font-size: 45px;
+   list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+ul li a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.li-div{
+  display: flex;
+}
+.li-div li{
+  font-size: 20px;
+  margin: 0 10px;
+
+}
+.li-div{
+    margin-left: 600px;
+    margin-right: 0px;
+    margin-top: 32px;
+    
+  
+}
+.maryli{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+button{
+  background-color: #FD6E0A;
+  font-size: 20px;
+  color: azure;
+  border: 0px ;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0 20px;
+  margin-top: 25px;
+}
+button:hover{
+  text-decoration: underline;
+}
+img{
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+/* image and heading work */
+
+#for-content-image{
+  position: absolute;
+  left: 200px;
+  display: flex;
+  margin-top: 00px;
+}
+
+#for-heading{
+  margin-top: 200px;
+  width: 500px;
+}
+
+
+#image img{
+ 
+}
+
+.For-background{
+  position: relative;
+  background-color: #FD6E0A;
+}
+#image{
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 120px;
+  
+  
+}
+.for-phone{
+  background-color: lightgoldenrodyellow;
+  border: 1px solid #FD6E0A;
+  color:#FD6E0A ;
+}
+
+/* main section work */
+
+#about-section{
+  width: 60%;
+  margin: 50px auto;
+  margin-top: 100px;
+  background-color: lightgoldenrodyellow;
+  padding: 10%;
+}
+#about-section h2{
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+#basic-info{
+  display: flex;
+
+}
+
+.basic{
+  width: 40%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+/* what i do section */
+#what-i-do{
+  width: 80%;
+  margin: 50px auto;
+  margin-top: 100px;
+}
+#what-i-do h3{
+  text-align: center;
+  margin-bottom: 50px;
+}
+#experience-section{
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.js{
+  margin: 10px;
+  /* background-color: #ddd; */
+  box-shadow: 0 0 10px;
+  padding: 10px 15px;
+  
+}
+.js img{
+  margin: 20px ;
+}
+
+.js h4{
+  margin: 10px
+}
+
+.summary{
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+.side{
+  margin: 20px 15px;
+  padding: 10px;
+
+}
+.side h2{
+  text-align: center;
+  margin: 20px;
+}
+
+.skill{
+  margin: 10px;
+}
+
+#experience{
+  margin: 20px 15px;
+  padding: 10px;
+
+}
+#experience h2{
+  text-align: center;
+  margin: 20px;
+}
+
+.myskill{
+  margin: 10px;
+}
+
+.btn{
+  width: 250px;
+  margin: 0 auto;
+  
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  margin-top: 50px;
+}
+.h-one{
+  width: 50%;
+  margin: 50px;
+
+}
+.h-one h1{
+  margin: 15px;
+}
+.from input{
+ display: block;
+ margin: 10px 0;
+ padding: 5px;
+ border: 0px 
+}
+textarea{
+  border: 0px;
+}
+.from{
+  margin: 20px 20px;
+  margin-left: 50px;
+}
+button{
+  display: block;
+}
